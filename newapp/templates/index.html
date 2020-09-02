@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="container center pt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">Envios a Venezuela</h1>
+            <p class="lead">Tenemos la mejor tasa.</p>
+            <hr class="my-4">
+            <p>Ingresa el monto en nuestra calculadora y envia tus remesas.</p>
+            
+
+            <div class="bottom">
+                <div class="add">
+                    <div class="add__container">
+                        <input type="number" class="add__value" placeholder="Pesos Argentinos">
+                        <input type="number" class="add__value" placeholder="Bolivares">
+                        <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                        <a class="btn btn-primary btn-lg " href="calculadora" role="button">Cotiza</a>
+                    </div>    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+{% endblock %}
