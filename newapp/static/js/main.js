@@ -1,7 +1,7 @@
-const botton = document.querySelectorAll('.btn-primary');
+const button = document.querySelectorAll('.btn-primary');
 
-if(botton) {
-    const btnArray = Array.from(botton);
+if(button) {
+    const btnArray = Array.from(button);
     btnArray.forEach((btn) => {
         btn.addEventListener('click', (e) => {
             if(!confirm('seguro que deseas continuar?')) {
